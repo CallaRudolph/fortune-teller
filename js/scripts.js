@@ -30,8 +30,12 @@ $(document).ready(function() {
       $("#monster").show();
     } else if (counterCeleb > 3 && counterBio > 3) {
       $("#wealth").show();
-    } else {
+    } else if (counterFood <= 3 || counterAct <= 3 || counterCeleb <= 3 || counterBio <= 3) {
+      if (counterFood > 0 || counterAct > 0 || counterCeleb > 0 || counterBio > 0) {
+      $("#tiny").show();
+      } else {
       alert("You cannot have a fortune, try again.")
+      }
     }
   });
 });
