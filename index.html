@@ -13,47 +13,19 @@
         <h2>ZOLFAR</h2>
         <h5>Zoltar's younger brother</h5>
       </div>
-      <h4>Zolfar will tell you your fortune, based on a few pieces of seemingly non-essential information. Check all that apply, and click "YOUR FUTURE CALLS" for a glimpse into yours.....</h4>
-
-      <form class="zolfar-Qs">
-        <div class="form-group">
-          <p>Which of the following foods repulse you?</p>
-          <input type="checkbox" name="food" value="1">Chinese<br>
-          <input type="checkbox" name="food" value="1">Rainbow<br>
-          <input type="checkbox" name="food" value="1">Sushi<br>
-          <input type="checkbox" name="food" value="1">French Fries<br>
-          <input type="checkbox" name="food" value="1">Dog<br>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4>Zolfar will tell you your fortune...</h4>
+          <p>...based on a few pieces of seemingly non-essential information. Check all that apply, and click "YOUR FUTURE CALLS" for a glimpse into yours.....</p>
         </div>
-        <div class="form-group">
-          <p>Which of the following activities scare you?</p>
-          <input type="checkbox" name="act" value="1">Scuba Diving<br>
-          <input type="checkbox" name="act" value="1">Walking<br>
-          <input type="checkbox" name="act" value="1">Sleeping<br>
-          <input type="checkbox" name="act" value="1">Hopscotch<br>
-          <input type="checkbox" name="act" value="1">Murder<br>
-        </div>
-        <div class="form-group">
-          <p>Which of the following celebrities do you want to marry?</p>
-          <input type="checkbox" name="celeb" value="1" id="cher">Cher<br>
-          <input type="checkbox" name="celeb" value="1">Fat Elvis<br>
-          <input type="checkbox" name="celeb" value="1">Bieber<br>
-          <input type="checkbox" name="celeb" value="1">Kim Jong Un<br>
-          <input type="checkbox" name="celeb" value="1">My Mom<br>
-        </div>
-        <div class="form-group">
-          <p>Tell me about yourself.</p>
-          <input type="checkbox" name="bio" value="1">I have three eyes<br>
-          <input type="checkbox" name="bio" value="1">I enjoy magnets<br>
-          <input type="checkbox" name="bio" value="1">I wish to canoe down an ear canal<br>
-          <input type="checkbox" name="bio" value="1">I like music<br>
-          <input type="checkbox" name="bio" value="1">I was born a small child<br>
-        </div>
-        <button type="submit" name="zolfar">YOUR FUTURE CALLS</button>
-      </form>
-
+      </div>
       <div class="future" id="monster">
-        <p>On one Wednesday afternoon, you will spontaneously transform into a hideous monster. Sorry.</p>
-        <footer>Please send your blank check for this fortune to 1700 N. New York Ave. Okeechobee, FL</footer>
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <p>On one Wednesday afternoon, you will spontaneously transform into a hideous monster. Sorry.</p>
+            <footer>Please send your blank check for this fortune to 1700 N. New York Ave. Okeechobee, FL</footer>
+          </div>
+        </div>
       </div>
       <div class="future" id="wealth">
         <p>You will ruin yourself worse than Bernie Madoff ruined America. Everyone will hate you and blame you for their misfortune. Have a great day!</p>
@@ -67,6 +39,44 @@
         <p>You've selected very few of my choices. I don't want to give you a fortune until you tell me more. Please participate again, but ...</p>
         <footer>Please send your blank check for this fortune to 1700 N. New York Ave. Okeechobee, FL</footer>
       </div>
+
+      <form class="zolfar-Qs">
+        <div class="form-group well">
+          <p>Which of the following foods repulse you?</p>
+          <input type="checkbox" name="food" value="1"> Chinese<br>
+          <input type="checkbox" name="food" value="1"> Rainbow<br>
+          <input type="checkbox" name="food" value="1"> Sushi<br>
+          <input type="checkbox" name="food" value="1"> French Fries<br>
+          <input type="checkbox" name="food" value="1"> Dog<br>
+        </div>
+        <div class="form-group well">
+          <p>Which of the following activities scare you?</p>
+          <input type="checkbox" name="act" value="1"> Scuba Diving<br>
+          <input type="checkbox" name="act" value="1"> Walking<br>
+          <input type="checkbox" name="act" value="1"> Sleeping<br>
+          <input type="checkbox" name="act" value="1"> Hopscotch<br>
+          <input type="checkbox" name="act" value="1"> Murder<br>
+        </div>
+        <div class="form-group well">
+          <p>Which of the following celebrities do you want to marry?</p>
+          <input type="checkbox" name="celeb" value="1" id="cher"> Cher<br>
+          <input type="checkbox" name="celeb" value="1"> Fat Elvis<br>
+          <input type="checkbox" name="celeb" value="1"> Bieber<br>
+          <input type="checkbox" name="celeb" value="1"> Kim Jong Un<br>
+          <input type="checkbox" name="celeb" value="1"> My Mom<br>
+        </div>
+        <div class="form-group well">
+          <p>Tell me about yourself.</p>
+          <input type="checkbox" name="bio" value="1"> I have three eyes<br>
+          <input type="checkbox" name="bio" value="1"> I enjoy magnets<br>
+          <input type="checkbox" name="bio" value="1"> I wish to canoe down an ear canal<br>
+          <input type="checkbox" name="bio" value="1"> I like music<br>
+          <input type="checkbox" name="bio" value="1"> I was born a small child<br>
+        </div>
+        <button class="btn btn-info" type="submit" name="zolfar">YOUR FUTURE CALLS</button>
+      </form>
+      <br>
+
 
     </div>
   </body>
